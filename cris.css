@@ -1,0 +1,324 @@
+body{
+    border: #333;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 1px;
+    margin: 0;
+    border-bottom: 1px solid #ddd
+}
+
+
+.autist{
+    background-color: lightblue;
+    width: fit-content;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.box {
+    position: relative;
+}
+
+.heis1{
+    color: purple;
+    width: fit-content;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+.heis{
+    color: black;
+    background-color: lightyellow;
+}
+
+p{
+    font-size: 20px;
+    width: auto;
+}
+.li{
+    font-size: 18px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background: lightpink;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:black;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:yellow;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+    .social-links {
+        list-style: none;
+        display: flex;
+        gap: 2.4rem;
+      }
+      
+      .social-icon {
+        height: 2.4rem;
+        width: 2.4rem;
+      }
+      
+        nav {
+        margin: 27px auto 0;
+      
+        position: relative;
+        width: 590px;
+        height: 50px;
+        background-color: #34495e;
+        border-radius: 8px;
+        font-size: 0;
+        width: fit-content;
+      }
+      nav a {
+        line-height: 50px;
+        height: 100%;
+        font-size: 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+      }
+      nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all .5s ease 0s;
+        border-radius: 8px;
+      }
+      a:nth-child(1) {
+        width: 100px;
+      }
+      a:nth-child(2) {
+        width: 110px;
+      }
+      a:nth-child(3) {
+        width: 100px;
+      }
+      a:nth-child(4) {
+        width: 160px;
+      }
+      a:nth-child(5) {
+        width: 120px;
+      }
+      nav .start-home, a:nth-child(1):hover~.animation {
+        width: 100px;
+        left: 0;
+        background-color: #1abc9c;
+      }
+      nav .start-about, a:nth-child(2):hover~.animation {
+        width: 110px;
+        left: 100px;
+        background-color: #e74c3c;
+      }
+      nav .start-blog, a:nth-child(3):hover~.animation {
+        width: 100px;
+        left: 210px;
+        background-color: #3498db;
+      }
+      nav .start-portefolio, a:nth-child(4):hover~.animation {
+        width: 160px;
+        left: 310px;
+        background-color: #9b59b6;
+      }
+      nav .start-contact, a:nth-child(5):hover~.animation {
+        width: 120px;
+        left: 470px;
+        background-color: #e67e22;
+      }
+      
+      
+      .img2{
+        display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #0077c2;
+      }
+      
+      .li {
+        font-family: Arial, sans-serif; /* seteaza fontul */
+        font-size: 16px; /* seteaza marimea fontului */
+        color: #333; /* seteaza culoarea textului */
+        margin: 0; /* elimina marginile implicite ale listei */
+        padding: 0; /* elimina padding-ul implicite al listei */
+        list-style: none; /* elimina stilurile implicite de la lista */
+      }
+      
+      .li li {
+        display: block; /* face ca fiecare element sa fie afisat ca un bloc */
+        margin-bottom: 10px; /* adauga spatiu intre elemente */
+        border-bottom: 1px solid #ddd; /* adauga o linie de separare intre elemente */
+        padding: 10px; /* seteaza padding-ul pentru elementele listei */
+        transition: background-color 0.2s ease; /* adauga o tranzitie pentru culoarea de fundal */
+      }
+      
+      .li li:hover {
+        background-color: lightpink; /* seteaza culoarea de fundal la hover */
+      }
+      
+      .li li:first-child {
+        border-top: 1px solid #ddd; /* adauga o linie de separare la inceputul listei */
+      }
+      
+      .li li:last-child {
+    
+        border-bottom: 1px solid #ddd
+      }
+      
+      .li li.active {
+        background-color: #0077cc; /* seteaza culoarea de fundal pentru elementul activ */
+        color: #fff; /* seteaza culoarea textului pentru elementul activ */
+      }
+      
+
+     
+     
+      .img{
+        padding-left: 500px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border: 2px solid black;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 1s);
+
+      }
+
+      
+
+      .preventie{
+        background-color: lightsteelblue;
+        border-radius: 7px ;
+        border :solid 4px #250;
+      }
+      .paragraf{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .titlu2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffcc00;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 50px 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        border-bottom: 1px solid #ddd
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .title {
+          font-size: 36px;
+        }
+      }
+   
+    .title3{
+      background-color: blue;
+      border-bottom: 1px solid #ddd
+    }
+        
+      .trenulet
+      {
+        display: block; /* face ca imaginea sa fie afisata ca un bloc */
+        border: 10px solid #333; /* adauga un cadru cu grosimea de 2px si culoarea #333 */
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 1); /* adauga o umbra subtila */
+        border-radius: 15px; /* adauga o raza de colturi de 10px */
+        width: fit-content;
+    
+      }
+    
+      .fratele {
+        margin: 0 10px; /* elimina marginile pentru a maximiza spatiul disponibil */
+        font-size: 3rem; /* setează dimensiunea textului la 3 rem */
+        text-align: center; /* aliniaza textul la centru */
+        padding: 10px; /* adauga padding pentru a crea spatiu intre text si margini */
+      }
+      .fratele {
+        display: flex; /* utilizează un container flex pentru a alinia imaginea și textul */
+        align-items: center; /* aliniaza continutul pe axa verticala */
+        justify-content: center; /* aliniaza continutul pe axa orizontala */
+        background-color: lightcoral; /* setează culoarea de fundal la negru */
+        border-radius: 10px solid black; /* adauga o raza de colturi de 10px */
+        overflow: hidden; /* ascunde orice continut care depaseste dimensiunile containerului */
+        width: fit-content;
+    }    
+
+    #tratament {
+      color: #008CBA; /* culoarea link-ului */
+      font-size: 30px; /* dimensiunea textului */
+      font-weight: bold; /* grosimea fontului */
+      width: fit-content
+    }
+    .li li a {
+      color: lightcoral; /* culoarea link-ului */
+      font-size: 15px; /* dimensiunea textului */
+      text-decoration: none; /* elimină sublinierea link-ului */
+    }
